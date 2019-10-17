@@ -1,0 +1,26 @@
+nsert
+sample text
+hi 
+hello
+dude
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wql
+--insert--
+
+
