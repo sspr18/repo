@@ -6,9 +6,16 @@
 trigger:
 - master
 
+strategy:
+matrix:
+      imageName: "ubuntu-16.04"
+      jdk_version: "1.10"
+      imageName: "vs2017-win2016"
+      jdk_version: "1.11"
+
+
 pool:
-  vmImage: 'ubuntu-latest'
-  vmimage: 'vs2017-win2016'
+  vmImage: $(imageName)
 
 steps:
 - task: Maven@3
