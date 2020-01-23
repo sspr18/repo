@@ -11,6 +11,8 @@ pool:
 
 steps:
 - script: echo Hello, world!
+{
+uhihihhihih
   displayName: 'Run a one-line script'
 
 - script: |
